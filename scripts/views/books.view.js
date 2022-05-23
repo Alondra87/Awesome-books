@@ -1,11 +1,11 @@
 const BOOKS_LIST_ID = 'books-list';
 
-export function genBookMarkUp(title, author) {
+export function genBookMarkUp(title, author,removeBook) {
   const bookMarkUp = `
     <div>
       <h2>${title}</h2>
       <p>${author}</p>
-      <button type="button">Remove</button>
+      <button type="button" onclick="${removeBook()}">Remove</button>
     </div>`;
   return bookMarkUp;
 }
@@ -27,4 +27,10 @@ export function addBook({ title, author }) {
   const booksListElem = document.getElementById(BOOKS_LIST_ID);
 
   booksListElem.insertAdjacentHTML('beforeend', `<li>${bookMarkup}</li>`);
+}
+
+export function removeBook(index){
+  const booksListElem = document.getElementById(BOOKS_LIST_ID);
+  const books = Object.values(booksListElem.children);
+  books[index].remove();
 }
