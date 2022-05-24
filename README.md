@@ -7,50 +7,51 @@
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML 5
+- CSS 3
+- JavaScript
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Web Browser (e.g. Firefox, Chrome, Edge)
+- NPM (Node Package Manager)
+
 ### Setup
+
+Download the code from this repository.
 
 ### Install
 
+Install the project dependencies using this command on the root project directory:
+
+```console
+$ npm install
+```
+
 ### Usage
 
-### Run tests
-
-### Deployment
-
+Open the index.html file in your Web Browser.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Gabriel Santo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@gvgesanto2](https://github.com/gvgesanto2)
+- Twitter: [@GabrielSanto997](https://twitter.com/GabrielSanto997)
+- LinkedIn: [Gabriel Santo](https://linkedin.com/in/gabriel-santo-5882a71b2/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Andrea Alvarez**
+
+- GitHub: [@Alondra87](https://github.com/Alondra87)
+- Twitter: @AndreaA07211436
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/andrea-a-384903224/)
 
 ## 🤝 Contributing
 
@@ -70,4 +71,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is MIT licensed.
